@@ -19,7 +19,7 @@ function getRequest(searchTerm){
 		showResults(data.items);
 	});
 }
-
+ 
 function showResults(results){
 	var html = " ";
 	$.each(results, function(index,value){
